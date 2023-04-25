@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Share app</title>
+  <link href="/stylesheets/shareapp.css" rel="stylesheet" type="text/css"/>
+  <script src="/socket.io/socket.io.js" ></script> 
+  <script src="/javascripts/user.client.js" ></script>  
+ 
+
+</head>
+
+<body>
+  <h1>Share app</h1>
+
+  <div id="content">
+    <div id="username"><div id="id"><span>ID:</span></div> <div id="name"></div></div>
+    <button id="logout">Logout</button>
+  </div>
+
+
+
+  <div id="createTask">
+    <label for="desc"> 
+    <strong> Nouvel object: </strong></Object>  <input id="desc" type="text" placeholder="description"/>
+  </label>
+  
+     <button id="ajouter">Ajouter</button>
+  </div>
+
+ 
+
+  <label for="disponible">
+  <div id="disponible"> objets disponibles à l'emprunt</div>
+  </label>
+
+  <label for="loue"> 
+  <div id="loue">objets que j'ai loué</div>
+  </label>
+
+  <label for="autre"> 
+    <div id="autre"><span>objets loués par d'autre utilisateurs: </span> <br></div>
+    </label>
+
+
+
+<div id="probleme"></div>
+ 
+
+
+</body>
+</html>

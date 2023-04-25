@@ -1,0 +1,60 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  margin-left: 39%;
+
+}
+
+#userdata{
+ margin-left: 40%;
+ margin-top: 20%;
+ 
+
+}
+input{
+  width: 40%;
+  height: 2em;
+  font-size: 1.4em;
+  margin-top: 2ch;
+  font-family: sans-serif;
+ 
+}
+
+label{
+
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: 700;
+
+}
+
+
+
+button{
+  background-color:hsl(213, 79%, 38%);
+  width:7%;
+  height:3em;
+  color:white;
+  font-weight: 500;
+  border-radius: 8%;
+  margin-left: 58%;
+  border-width: thin;
+  margin-top: 2%;
+  
+}
+button:active{
+  background-color:hsl(268, 64%, 14%);
+
+}
+#problem{
+
+  color: red;
+}
+
+
+
+
