@@ -1,11 +1,8 @@
 {
-  "name": "cell-yours",
+  "name": "share-app",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -19,8 +16,7 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.10.0",
     "morgan": "~1.9.1",
-    "socket.io": "^4.6.1",
-    "vue": "^3.2.13"
+    "socket.io": "^4.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
